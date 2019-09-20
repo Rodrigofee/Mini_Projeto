@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4682B4">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro"
+            android:layout_gravity="center"
+            android:layout_marginTop="20pt"
+            android:textColor="#f5f5f5"
+            android:textSize="50sp"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/text_nome"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#F2F2F2"
+            android:padding="15dp"
+            android:textColorHint="#000"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="70pt"
+            android:text="Nome"
+            android:layout_marginLeft="15pt"
+            android:inputType="text">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/text_sobrenome"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#F2F2F2"
+            android:padding="15dp"
+            android:textColorHint="#000"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="100pt"
+            android:text="Sobrenome"
+            android:layout_marginLeft="15pt"
+            android:inputType="text">
+        </EditText>
+
+        <EditText
+            android:id="@+id/text_telefone"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="#F2F2F2"
+            android:padding="15dp"
+            android:textColorHint="#000"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="130pt"
+            android:text="Telefone"
+            android:layout_marginLeft="15pt"
+            android:inputType="text">
+        </EditText>
+
+        <Button
+            android:id="@+id/cadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160pt"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:text="Cadastrar"
+            android:padding="10pt"
+            android:layout_marginLeft="50pt"/>
+    </RelativeLayout>
+</LinearLayout>
