@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4682B4">
+    android:background="#191970">
 
     <RelativeLayout
         android:orientation="horizontal"
@@ -32,7 +32,7 @@
             android:textColorHint="#000"
             android:textStyle="bold|italic"
             android:layout_marginTop="70pt"
-            android:text="Nome"
+            android:hint="Nome"
             android:layout_marginLeft="15pt"
             android:inputType="text">
         </EditText>
@@ -48,7 +48,7 @@
             android:textColorHint="#000"
             android:textStyle="bold|italic"
             android:layout_marginTop="100pt"
-            android:text="Sobrenome"
+            android:hint="Sobrenome"
             android:layout_marginLeft="15pt"
             android:inputType="text">
         </EditText>
@@ -63,13 +63,13 @@
             android:textColorHint="#000"
             android:textStyle="bold|italic"
             android:layout_marginTop="130pt"
-            android:text="Telefone"
+            android:hint="Telefone"
             android:layout_marginLeft="15pt"
             android:inputType="text">
         </EditText>
 
         <Button
-            android:id="@+id/cadastrar"
+            android:id="@+id/BottonCadastrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="160pt"
